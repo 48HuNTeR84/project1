@@ -181,7 +181,7 @@ nav ul > li > a:hover {
 .glavnaia {
   height: 100vh;
   width: 100%;
-  background-image: url(/images/Фон.jpg);
+  background-image: url(images/Фон.jpg);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -269,7 +269,7 @@ td {
 }
 
 .merch {
-  background-image: url(/images/moon.jpg);
+  background-image: url(images/moon.jpg);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -482,7 +482,7 @@ audio {
 #container1 {
   height: 180px;
   width: 180px;
-  background-image: url(/images/bushido.jpg);
+  background-image: url(images/bushido.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 24px;
@@ -499,7 +499,7 @@ audio {
 #container2 {
   height: 180px;
   width: 180px;
-  background-image: url(/images/X-ray.jpg);
+  background-image: url(images/X-ray.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 24px;
@@ -516,7 +516,7 @@ audio {
 #container3 {
   height: 180px;
   width: 180px;
-  background-image: url(/images/Ночи_без_сна.jpg);
+  background-image: url(images/Ночи_без_сна.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 24px;
@@ -533,7 +533,7 @@ audio {
 #container4 {
   height: 180px;
   width: 180px;
-  background-image: url(/images/SMLD.jpg);
+  background-image: url(images/SMLD.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 24px;
@@ -582,7 +582,7 @@ audio {
 }
 
 .albomy {
-  background-image: url(/images/moon2.jpg);
+  background-image: url(images/moon2.jpg);
 
   background-position: center;
 
