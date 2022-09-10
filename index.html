@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="Shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <title>Dirty Hope</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="header_burger">
+        <img class="hide" src="/img/header_burger.png" alt="">
+        <img src="/img/cross.png" alt="">
+      </div>
+
+      <nav>
+        <div>
+          <ul>
+            <li><a class="navLink" href="#glavnaia" onclick="return false;">Главная</a></li>
+            <li><a class="navLink" href="#koncerty" onclick="return false;">Концерты</a></li>
+            <li><a class="navLink" href="#merch" onclick="return false;">Мерч</a></li>
+            <li><a class="navLink" href="#treki" onclick="return false;">Треки</a></li>
+            <li><a class="navLink" href="#albomy" onclick="return false;">Альбомы</a></li>
+            <li><a class="navLink" href="#druzia" onclick="return false;">Друзья</a></li>
+            <li><a class="navLink" href="#kontakty" onclick="return false;">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="en_fon_top"></div>
+
+      <main>
+        <div id="glavnaia" class="glavnaia">
+          <img class="logo anim_logo" src="/img/Лого.png" alt="LOGO" />
+        </div>
+
+          <div id="koncerty" class="koncerty">
+            <div class="working_field">
+              <div class="header_field anim-items">
+                <h2>Концерты</h2>
+              </div>
+              <div class="wrap_text">
+                <div class="koncertytext anim-items">
+                  <table>
+                    <caption>Расписание концертов</caption>
+                    <tr>
+                      <th>Дата</th>
+                      <th>Город</th>
+                      <th>Место</th>
+                      <th>Цена</th>
+                      <th>Купить</th>
+                    </tr>
+                    <tr>
+                      <td>25.02.2023</td>
+                      <td>Малмыж</td>
+                      <td>Центральный ДК</td>
+                      <td>800 р.</td>
+                      <td rowspan="5" style="text-align:center" >Билеты приобретать на кассе!!! Для бронирования обращаться по телефону <a href="tel:+79127082537">89127082537</a></td>
+                    </tr>
+                    <tr>
+                      <td>29.03.2023</td>
+                      <td>Казань</td>
+                      <td>Бар "300"</td>
+                      <td>1000 р.</td>
+                    </tr>
+                    <tr>
+                      <td>16.04.2023</td>
+                      <td>Киров</td>
+                      <td>Бар "Табакко"</td>
+                      <td>900 р.</td>
+                    </tr>
+                    <tr>
+                      <td>8.05.2023</td>
+                      <td>Йошкар-ола</td>
+                      <td>Бар "Strike"</td>
+                      <td>900 р.</td>
+                    <tr>
+                      <td>14.06.2023</td>
+                      <td>Вятские-Поляны</td>
+                      <td>Центральный ДК</td>
+                      <td>800 р.</td>
+                    </tr>
+                  </table>
+                </div> 
+              </div>
+            </div>
+          </div>
+
+        <div id="merch" class="merch">
+          <div class="working_field">
+            <div class="header_field anim-items">
+              <h2>Мерч</h2>
+            </div>
+            <div class="wrap_text">
+              <div class="merchtext anim-items">
+                  <p>Официальный магазин товаров&nbsp;DH</p>
+                  <a target="_blank" href="/wear_shop.html">Ворваться</a>
+              </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div  id="treki" class="treki">
+          <div class="working_field">
+            <div class="header_field anim-items">
+              <h2>Треки</h2>
+              <h3 class="hint">Нажмите на иконку <br> для прослушивания <br> трека и нажмите на <br> другой объект для <br> остановки</h3>
+            </div>
+
+            <div class="wrap_text">
+              <div class="trekitext">
+                <div class="track_text">
+                  <div class="up_con anim-items" id="up_container1">
+                    <div id="container1">
+                      <div class="disc"></div>
+                    </div>
+                  </div>
+                  <audio class = "sound" id="sound1" src="/audio/Dirty Hope - Bushido.mp3" preload="auto" controls>Dirty Hope - Bushido</audio>  
+                  <p class="anim-items">Dirty&nbsp;Hope&nbsp;- Bushido</p>
+                </div>
+
+                <div class="track_text">
+                  <div class="up_con anim-items" id="up_container2">
+                  <div id="container2">
+                    <div class="disc"></div>
+                  </div>
+                </div>
+                  <audio class = "sound" id="sound2" src="/audio/Dirty Hope - X-ray.mp3" preload="auto" controls>Dirty Hope - X-ray</audio>  
+                  <p class="anim-items">Dirty&nbsp;Hope&nbsp;- <br> X-ray </p>
+                </div>
+              
+
+                <div class="track_text">
+                  <div class="up_con anim-items" id="up_container3">
+                  <div id="container3">
+                    <div class="disc"></div>
+                  </div>
+                </div>
+                  <audio class = "sound" id="sound3" src="/audio/Dirty Hope - Ночи без сна.mp3" preload="auto" controls>Dirty Hope - Ночи без сна</audio>
+                  <p class="anim-items">
+                    Dirty&nbsp;Hope - <br />
+                    Ночи&nbsp;без&nbsp;сна </p>  
+                </div>
+              
+                <div class="track_text">  
+                  <div class="up_con anim-items" id="up_container4">
+                  <div id="container4">
+                    <div class="disc"></div>
+                  </div>
+                </div>
+                  <audio class = "sound" id="sound4" src="/audio/HuNTeR, PREDEL - SMLD (1).mp3" preload="auto" controls>Dirty Hope, VKID - SMLD</audio>
+                  <p class="anim-items">Dirty&nbsp;Hope,<br />VKID&nbsp;- <br /> SMLD</p> 
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="albomy" class="albomy">
+          <div class="working_field">
+            <div class="header_field anim-items">
+              <h2>Альбомы</h2>
+            </div>
+            <div class="wrap_text">
+              <div class="albomytext anim-items">
+                <p>Альбом находится в разработке и пока его создание идёт полным ходом...
+                  <br>
+                  Не иссключено, что первым выйдет микс тейп с улучшеным звуком, а потом только полный альбом.
+                  <br>
+                  Мы все прекарасно знаем, что пока Dirty Hope работает над своим творчеством полностью сам и каждый трек является его 100% работой!!!
+                  <br>
+                  Крапотливо идёт работа над каждым треком и с каждым треком чувствуется прогресс, который несомненно радует создателя и сподвигает на новые крышесносные композиции.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="druzia" class="druzia">
+          <div class="working_field">
+            <div class="header_field anim-items">
+              <h2>Друзья</h2>
+            </div>
+            <div class="wrap_text">
+              <div class="druziatext">
+                <div class="anim-items">
+                  <a href="">
+                    VKID
+                    <a href=""><img class="chain" src="/img/chain.png" alt=""></a>
+                  </a>
+                </div>
+                <div class="anim-items">
+                  <a href="">
+                    SerplBoy
+                    <a href=""><img class="chain" src="/img/chain.png" alt=""></a>
+                  </a>
+                </div>
+                <div class="anim-items">
+                  <a href="">
+                    DixOn
+                    <a href=""><img class="chain" src="/img/chain.png" alt=""></a>
+                  </a>
+                </div>
+                <div class="anim-items">
+                  <a href="">
+                    ООО "ТрэпБитс"
+                    <a href=""><img class="chain" src="/img/chain.png" alt=""></a> 
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="link_icon">
+          <div>
+            <div>
+            <a class="" target="_blank" href="">
+              <img src="/img/YouTube_icon.png" alt="YouTube_icon" />
+            </a>
+          </div>
+          <div>
+            <a class="" target="_blank" href="">
+              <img src="/img/Instagram_icon.png" alt="Instagram_icon" />
+            </a>
+          </div>
+          <div>
+            <a class="" target="_blank" href="">
+              <img src="/img/VK_icon.png" alt="VK_icon" />
+            </a>
+          </div>
+          </div>
+        </div>
+        <div class="en_fon_bottom"></div>
+      </main>
+
+        <div class="arrow_case"><img src="/img/arrow.png" alt=""></div>
+
+    </div>
+
+      <footer id="kontakty">
+        <div class="footer">
+          <div class="underfooter">
+            <p>По вопросам о приобретённых билетах:</p>
+            <a href="">Часто&nbsp;задаваемые&nbsp;вопросы </a>
+            <a href="mailto:tomasrobinson47@gmail.com">tickets43@gmail.com </a>
+            <br />
+            <p>По организационным и общим вопросам:</p>
+            <a href="tel:+79127082537">+79127082537</a>
+            <a href="mailto:tomasrobinson47@gmail.com">Dirty.hope.@mail</a>
+          </div>
+          <div class="underfooter2">
+            <p>
+              <span>Оффициальный сайт Dirty&nbsp;Hope aka&nbsp;DiHo</span>
+              <br />Здесь вы можете ознакомиться с
+              творчеством&nbsp;Dirty&nbsp;Hope, <br />посмотреть афишу,
+              приобрести официальный мерч. <br />На сайте вы сможете купить
+              билеты,<br />
+              посмотреть актуальное расписание концертов и туров
+              <br />Dirty&nbsp;Hope aka&nbsp;DiHo.
+            </p>
+
+            "Официальный организатор концертных туров — ООО «Ктулху Промо»"
+            <br />
+            Ул. им. Худякова, 8, г. Малмыж, 612920
+            <br />
+            ИНН: 101101101
+            <br />
+            КПП: 101101101
+            <br />
+            ОГРН: 1011011011011"  
+          </div>
+        </div>
+      </footer>
+
+    <script src="/skript.js"></script>
+
+  </body>
+
+</html>
